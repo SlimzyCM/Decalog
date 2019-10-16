@@ -1,0 +1,46 @@
+body {
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+}
+
+#topContainer{
+	background: url("../images/image.jpg") no-repeat 0 0;
+	min-height: 100%;
+	width: 100%;
+	background-size: cover;
+	box-shadow: inset 0 0 0 1200px rgba(0,0,0,.2);
+	margin: 0;
+	 
+}
+.navbar-brand {
+	font-size: 2.0em;
+	font-weight: bold;
+
+}
+.centerDiv{
+   text-align: center;
+   color: white;
+   margin-top: 110px 
+   
+}
+
+.lead{
+	font-size: 18px;
+}
+
+.centerDiv h1{
+	font-size: 85px;
+}
+
+.buttonClass{
+	margin-top: 40px;
+
+}
+
+.topButton{
+	width: 340px;
+	height: 45px;
+	font-weight: bold;
+	font-size: 18px;
+}
