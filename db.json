@@ -1,0 +1,50 @@
+{
+  "posts": [
+    {
+      "postTitle": "lorem ipsum",
+      "postBody": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldu",
+      "userid": "36",
+      "dateTime": "2019-9-20 12:32:33",
+      "id": 0
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "userName": "chidimicheal",
+      "email": "chidimicheal17@gmail.com",
+      "password": "elizabeth"
+    },
+    {
+      "userName": "",
+      "email": "",
+      "password": "",
+      "id": 2
+    },
+    {
+      "userName": "Chimike",
+      "email": "chidimicheal17@gmail.com",
+      "password": "12345",
+      "id": 3
+    },
+    {
+      "userName": "chidi",
+      "email": "chidimicheal17@gmail.com",
+      "password": "1",
+      "id": 4
+    },
+    {
+      "userName": "chidimicheal17",
+      "email": "chidimicheal17@gmail.com",
+      "password": "12345",
+      "id": 5
+    }
+  ]
+}

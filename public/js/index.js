@@ -115,3 +115,59 @@ function passwordVerify() {
   	return true;
   }
 }
+
+
+$(document).ready(function(){
+
+
+
+  $('#signUpMessage').hide();
+  
+  $('#mySignupFrom').submit((event)=>{
+      event.preventDefault()
+      let userName = $('#inputUsername').val();
+      let email = $('#inputEmail').val();
+      let password = $('#inputPassword').val();
+      let count = 1;
+      let confirmPassword = $('#confirmPassword').val();
+      if((confirmPassword === password) && (password !== '') && (confirmPassword !== '') && (password > 5)){
+        $.ajax({
+          url: 'http://localhost:3000/users',
+          method: 'post',
+          data: {
+              userName,
+              email,
+              password
+          }
+  
+      }).done((response) =>{
+          console.log(response)
+          //
+          if (count === 1 ){
+              $('#signUpMessage').fadeIn();
+              $('#signUpMessage').fadeOut(5000);
+              return;
+          
+          }   count = count + 1;   
+          return;   
+  
+      })
+
+     
+      }
+        
+      
+    
+  })
+  
+  
+  
+  
+   
+});
+   
+   
+  
+   
+   
+  
