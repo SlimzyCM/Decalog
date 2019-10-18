@@ -16,7 +16,10 @@ $(document).ready(function(){
             for (let i = 0; i < response.length; i++) {
                 if(response[i].email === loginEmail && response[i].password === loginPassword){
                     localStorage.setItem('userid', response[i].id);
-    
+                    localStorage.setItem('ln', response[i].lastName);
+                    localStorage.setItem('fn', response[i].firstName);
+                    localStorage.setItem('bio', response[i].bio);
+                    localStorage.setItem('photoLink', response[i].photoLink);
                     window.location = "http://localhost:3000/profile.html"; 
                     return;
                 }     

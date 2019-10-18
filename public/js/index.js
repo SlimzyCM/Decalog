@@ -26,10 +26,10 @@ function Validate() {
     return false;
   }
   // validate username
-  if (username.value.length < 5) {
+  if (username.value.length < 4) {
     username.style.border = "2px solid red";
     document.getElementById('inputUsername').style.color = "red";
-    username_error.textContent = "Username must be at least 5 characters";
+    username_error.textContent = "Username must be at least 4 characters";
     username.focus();
     return false;
   }
@@ -54,7 +54,7 @@ function Validate() {
     email.style.border = "2px solid red";
     document.getElementById('inputEmail').style.color = "red";
     email_error.textContent = 'Please enter a valid email';
-    fname.focus();
+    email.focus();
     return false;
   } 
   // validate password
@@ -108,7 +108,7 @@ function passwordVerify() {
   	password_error.innerHTML = "";
   	return true;
   }
-  if ((password.value === password_confirm.value) && (password.value > 5)) {
+  if ((password.value === password_confirm.value) && (password.value > 4)) {
   	password.style.border = "2px solid #46B32A";
   	document.getElementById('confirmPassword').style.color = "#46B32A";
   	password_error.innerHTML = "";
@@ -128,9 +128,9 @@ $(document).ready(function(){
       let userName = $('#inputUsername').val();
       let email = $('#inputEmail').val();
       let password = $('#inputPassword').val();
-      let count = 1;
       let confirmPassword = $('#confirmPassword').val();
-      if((confirmPassword === password) && (password !== '') && (confirmPassword !== '') && (password > 5)){
+
+      if((confirmPassword === password) && (password !== '') && (confirmPassword !== '') && (confirmPassword.length > 4) && (userName.length >= 4)){
         $.ajax({
           url: 'http://localhost:3000/users',
           method: 'post',
@@ -140,16 +140,14 @@ $(document).ready(function(){
               password
           }
   
-      }).done((response) =>{
+        }).done((response) =>{
           console.log(response)
           //
-          if (count === 1 ){
               $('#signUpMessage').fadeIn();
-              $('#signUpMessage').fadeOut(5000);
+              $('#signUpMessage').fadeOut(4000);
+
               return;
           
-          }   count = count + 1;   
-          return;   
   
       })
 

@@ -18,9 +18,14 @@
   "users": [
     {
       "id": 1,
-      "userName": "chidimicheal",
+      "userName": "",
       "email": "chidimicheal17@gmail.com",
-      "password": "elizabeth"
+      "password": "elizabeth",
+      "firstName": "Chidi",
+      "lastName": "Michael",
+      "bio": "",
+      "photoLink": "",
+      "userid": "1"
     },
     {
       "userName": "",
@@ -29,22 +34,61 @@
       "id": 2
     },
     {
-      "userName": "Chimike",
+      "userName": "heataha",
       "email": "chidimicheal17@gmail.com",
       "password": "12345",
-      "id": 3
+      "id": 3,
+      "firstName": "Chidi",
+      "lastName": "Michael",
+      "bio": "gggggg",
+      "photoLink": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+      "userid": "3"
     },
     {
-      "userName": "chidi",
+      "userName": "chidimicheal",
       "email": "chidimicheal17@gmail.com",
       "password": "1",
-      "id": 4
+      "id": 4,
+      "firstName": "Chidi",
+      "lastName": "Michael",
+      "bio": "i am serious now",
+      "photoLink": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+      "userid": "4"
+    },
+    {
+      "userName": "tony",
+      "email": "tonybaddestguy@gmail.com",
+      "password": "tonyg",
+      "id": 5
     },
     {
       "userName": "chidimicheal17",
       "email": "chidimicheal17@gmail.com",
-      "password": "12345",
-      "id": 5
+      "password": "gggggg",
+      "id": 6
+    },
+    {
+      "userName": "Chimike",
+      "email": "chidimicheal17@gmail.com",
+      "password": "ertyu",
+      "id": 7
+    },
+    {
+      "userName": "Chimike",
+      "email": "chidimicheal17@gmail.com",
+      "password": "ertyu",
+      "id": 8
+    },
+    {
+      "userName": "ebuka",
+      "email": "chidimicheal16@gmail.com",
+      "password": "ebuka",
+      "id": 9,
+      "firstName": "ebuka",
+      "lastName": "judah",
+      "bio": "i am the soil",
+      "photoLink": "",
+      "userid": "9"
     }
   ]
 }
