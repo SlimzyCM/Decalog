@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
         
     <link rel="stylesheet" href="css/style2.css">           
-    <title>DecaLog - Lastest Blogging Platform</title>
+    <link rel="stylesheet" href="css/style.css">           
+  
 
     <script> 
     
@@ -20,7 +21,7 @@
   </script>
 </head>
 <body>
-  
+         
   <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
     <a class="navbar-brand  ml-5 mr-0" href="#">DecaLog</a>
     <ul class="navbar-nav px-3">
@@ -37,15 +38,15 @@
       <img id="myImg" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png" alt="" img-fluid>
     </div>
     <div class="full-name">
-      <h3 id="member"> NO NAME SET </h3> 
+      <h3 id="member"> NO NAME SET </h3>
     </div> 
     <div class="bio container">
-      <p id="bio">You haven't set up a short bio about yourself, do that <a href="setting.html">here</a></p>
+      <p id="bio">You haven't set up a short bio about yourself, do that<a href="setting.html">here</a></p>
     </div>
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-    <a href="profile.html" class="btn btn-outline-dark">TIMELINE</a>
+    <a href="profile.html" class="btn btn-light special active">TIMELINE</a>
     <a href="#" class="btn btn-outline-dark">POSTS</a>
-    <a href="post.html" class="btn btn-light active special">WRITE THOUGHTS</a>
+    <a href="post.html" class="btn btn-outline-dark">WRITE THOUGHTS</a>
     <a href="setting.html" class="btn btn-outline-dark">SETTINGS</a>
     <div class= empty></div>
   </div>
@@ -56,42 +57,54 @@
           
           <ul class="nav nav-tabs">
               <li class="nav-item">
-                <a id="direct" class="nav-link active" href="#">New Post</a>
+                <a class="nav-link active" href="#">Timeline</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"></a>
+                <a class="nav-link" href="#">Friends</a>
               </li>
-             
+              <li class="nav-item">
+                <a class="nav-link" href="#">More</a>
+              </li>
           </ul>
       </nav>
+        
+      <div class="container"><br>
+        <div id="viewpost"><br>
+      
+        </div><br><br>
+            <div>
+                    <hr><br>
+                <form>
+                    <div id="" class="form-group">
+                      <textarea class="form-control col-md-10" id="commentBox" placeholder="Write a comment" rows="2"></textarea>
+                      <div class="errorMessage" id="comment_error"></div>
 
-      <form id="postForm" name="postform" method="POST">
-        <div class="form-group">
-        
-          <input type="text" class="form-control col-md-10" id="postTitle" placeholder="Title" required="required">
-        </div>
-        <div class="form-group">
-          <textarea class="form-control col-md-10" id="postBody" placeholder="Type your post here" rows="5" required="required"></textarea>
-        </div>
-        
-        <button type="submit" class="btn btn-primary">Publish</button>
-      </form>
-      <br><br>
-      <div id="allPostDiv" class="">
-        
+                    </div>
+                    <button type="submit" id="commentButton" class="btn btn-primary mx-auto commentButton row justify-content-end">Comment</button>
+                </form>
+                <hr>
+            </div>
+            <div class="comment" id="dropComment">
+                <b>Comments:</b><br>
+                
+                   
+            </div>
+
       </div>
+       
+    
   </div> 
 
 
 
 
   <script src="bootstrap-4.3.1-dist/js/jquery-3.4.1.min.js"></script>
-  <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script> 
-  <script src="js/profile.js"></script> 
-  <script src="js/post.js"></script>
+  <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>    
+  <script src="js/profile.js"></script>    
+  <script src="js/viewpost.js"></script>    
+  <script src="js/comment.js"></script>    
+  <script src="js/logout.js"></script>    
 
-  <script>$('#postMessage').hide();</script>
-   
-   
+
        
 </body>

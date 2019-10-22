@@ -20,6 +20,7 @@ $(document).ready(function(){
                     localStorage.setItem('fn', response[i].firstName);
                     localStorage.setItem('bio', response[i].bio);
                     localStorage.setItem('photoLink', response[i].photoLink);
+                    localStorage.setItem('un', response[i].userName);
                     window.location = "http://localhost:3000/profile.html"; 
                     return;
                 }     

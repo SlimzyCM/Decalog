@@ -1,18 +1,110 @@
 {
   "posts": [
     {
-      "postTitle": "lorem ipsum",
-      "postBody": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldu",
-      "userid": "36",
-      "dateTime": "2019-9-20 12:32:33",
-      "id": 0
+      "postTitle": "This is life work",
+      "postBody": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldu papa dieu.",
+      "userid": "4",
+      "dateTime": "2019-10-20 19:48:24",
+      "name": "Micheal Chidi",
+      "id": 1
+    },
+    {
+      "postTitle": "SLEEP IS NOT LIFE FOR REAL",
+      "postBody": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure.",
+      "userid": "4",
+      "dateTime": "2019-10-21 16:10:32",
+      "name": "Micheal Chidi",
+      "id": 2
+    },
+    {
+      "postTitle": "Last day at Bootcamp",
+      "postBody": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software.",
+      "userid": "4",
+      "dateTime": "2019-10-19 7:54:0",
+      "name": "Chidi Michael",
+      "id": 3
+    },
+    {
+      "postTitle": "This is destiny",
+      "postBody": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc",
+      "userid": "4",
+      "dateTime": "2019-10-19 8:43:40",
+      "name": "Chidi Michael",
+      "id": 4
+    },
+    {
+      "postTitle": "My Hng Internship Programming Experience",
+      "postBody": "Programming its the process of creating a set of instructions that tell a computer how to perform a task. Programming can be done using a variety of computer \"languages,\" such as SQL, Java, Python, and also web languages such as HTML, CSS, JavaScript etc.\n\nA programmer is therefore, Someone who writes code or programs to tell the computer what to do.\n\nbecoming a programmer is not an easy road to take but yet so easy to learn especially when you have good instructors, Mentors, Books, Tutorial Videos and lots more now everywhere on the internet.\n\nA good example of such great resource for Becoming a programmer is HNG Internship 6.0 which offers the best on hands practice in the world of programming. this program is for beginners like me who wants to learn how to code.\n\nThanks to this program while trying to complete task One, I accomplished a lot;\n\nUsed Google documents, which I used their template to properly develop and structure my CV.\nI created a Blog using Blogger, Never knew it was that easy.\nRead about Italy and majorly the beautiful city of Milan as the first topic of post on my blog.\nRead about Github and Git, although I've not used it yet but am eager to learn how to create projects.\nIn the course of this task i came across PivotalTracker, Cloudinary, and many more, I cant wait to learn about them and use them. I am hoping that i will learn more on web design to further improve my front-end skills before the completion of this program.\n\nFinally, I wish to commend because I am impressed and have not yet seen a flaw to be improved.\n\nThumbs Up Start.ng",
+      "userid": "4",
+      "dateTime": "2019-10-21 19:24:41",
+      "name": "Micheal Chidi",
+      "id": 5
     }
   ],
   "comments": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "comment": "just testing comment.",
+      "dateTime": "21 Oct, 2019 5:00 PM",
+      "commenter": "micheal",
+      "postId": "2",
+      "userid": "4",
+      "id": 2
+    },
+    {
+      "comment": "I will register this post is nice.",
+      "dateTime": "21 Oct, 2019 5:03 PM",
+      "commenter": "anonymous",
+      "postId": "1",
+      "userid": "0",
+      "id": 3
+    },
+    {
+      "comment": "ok",
+      "dateTime": "21 Oct, 2019 5:04 PM",
+      "commenter": "anonymous",
+      "postId": "1",
+      "userid": "0",
+      "id": 4
+    },
+    {
+      "comment": "it is now working",
+      "dateTime": "21 Oct, 2019 7:08 PM",
+      "commenter": "anonymous",
+      "postId": "1",
+      "userid": "0",
+      "id": 5
+    },
+    {
+      "comment": "one more time",
+      "dateTime": "21 Oct, 2019 7:11 PM",
+      "commenter": "anonymous",
+      "postId": "1",
+      "userid": "0",
+      "id": 6
+    },
+    {
+      "comment": "testing sleep is not life comment.",
+      "dateTime": "21 Oct, 2019 7:12 PM",
+      "commenter": "anonymous",
+      "postId": "2",
+      "userid": "0",
+      "id": 7
+    },
+    {
+      "comment": "yea your write it was fun",
+      "dateTime": "22 Oct, 2019 5:07 AM",
+      "commenter": "@kelvin",
+      "postId": "3",
+      "userid": "10",
+      "id": 8
+    },
+    {
+      "comment": "trying last day again",
+      "dateTime": "22 Oct, 2019 5:09 AM",
+      "commenter": "Kelvin ",
+      "postId": "3",
+      "userid": "10",
+      "id": 9
     }
   ],
   "users": [
@@ -45,14 +137,14 @@
       "userid": "3"
     },
     {
-      "userName": "chidimicheal",
+      "userName": "heataha",
       "email": "chidimicheal17@gmail.com",
       "password": "1",
       "id": 4,
-      "firstName": "Chidi",
-      "lastName": "Michael",
-      "bio": "i am serious now",
-      "photoLink": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&auto=format&fit=crop&w=334&q=80",
+      "firstName": "micheal",
+      "lastName": "chidi",
+      "bio": "micheal here",
+      "photoLink": "",
       "userid": "4"
     },
     {
@@ -89,6 +181,17 @@
       "bio": "i am the soil",
       "photoLink": "",
       "userid": "9"
+    },
+    {
+      "userName": "kelvin",
+      "email": "kelvinokobia@gmail.com",
+      "password": "kelvin",
+      "id": 10,
+      "firstName": "Kelvin ",
+      "lastName": "chika",
+      "bio": "I am a marlian",
+      "photoLink": "",
+      "userid": "10"
     }
   ]
 }

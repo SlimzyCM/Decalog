@@ -14,7 +14,7 @@
     padding-top: 60px;
   }
   .empty{
-    height: 30%
+    height: 10%
   }
   .sidebar a {
     padding: 8px 8px 8px 32px;
@@ -85,6 +85,13 @@
   .allpost a:hover h1:hover{
     text-decoration: none;
   }
+  #allPostFullDiv{
+    background-color: aliceblue;
+  }
+  #allPostFullDiv h2{
+    background-color: #444;
+    padding: 10px;
+  }
   .active{
     font-weight: bold;
     border-bottom: 3px solid #444
@@ -103,6 +110,18 @@
   #updateForm label{
     font-weight: 500;
   }
+  .timeDate{
+    font-size: 14px;
+    color: #444;
+  }
+
+  .commentButton{
+    text-align: end;
+  }
+
+	.Allpost a:hover{
+		text-decoration: none;
+	}
   /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
   @media screen and (max-height: 450px) {
     .sidebar {padding-top: 15px;}
