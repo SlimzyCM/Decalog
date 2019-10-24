@@ -31,7 +31,7 @@ $(document).ready(function(){
     if ((photoLink !== "") && (photoLink !== "undefined")){
          document.getElementById("myImg").src = photoLink; 
     }
-    if (bio !== "undefined"){
+    if ((bio !== "undefined")&&(photoLink !== "")){
         document.getElementById("bio").innerHTML = bio;
         return;
     }

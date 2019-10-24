@@ -1,44 +1,52 @@
 {
   "posts": [
     {
-      "postTitle": "This is life work",
-      "postBody": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldu papa dieu.",
+      "postTitle": "This is life workman",
+      "postBody": "lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldu papa dieu.",
       "userid": "4",
-      "dateTime": "2019-10-20 19:48:24",
+      "dateTime": "22 Oct, 2019 5:45 PM",
       "name": "Micheal Chidi",
       "id": 1
     },
     {
-      "postTitle": "SLEEP IS NOT LIFE FOR REAL",
+      "postTitle": "SLEEP IS LIFE FOR REAL",
       "postBody": "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure.",
       "userid": "4",
-      "dateTime": "2019-10-21 16:10:32",
+      "dateTime": "23 Oct, 2019 3:39 AM",
       "name": "Micheal Chidi",
       "id": 2
     },
     {
-      "postTitle": "Last day at Bootcamp",
+      "postTitle": "Last day at Decagon Bootcamp",
       "postBody": "orem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software.",
       "userid": "4",
-      "dateTime": "2019-10-19 7:54:0",
-      "name": "Chidi Michael",
+      "dateTime": "23 Oct, 2019 3:39 AM",
+      "name": "Micheal Chidi",
       "id": 3
     },
     {
-      "postTitle": "This is destiny",
+      "postTitle": "This is destiny calling",
       "postBody": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc",
       "userid": "4",
-      "dateTime": "2019-10-19 8:43:40",
-      "name": "Chidi Michael",
+      "dateTime": "23 Oct, 2019 3:38 AM",
+      "name": "Micheal Chidi",
       "id": 4
     },
     {
       "postTitle": "My Hng Internship Programming Experience",
-      "postBody": "Programming its the process of creating a set of instructions that tell a computer how to perform a task. Programming can be done using a variety of computer \"languages,\" such as SQL, Java, Python, and also web languages such as HTML, CSS, JavaScript etc.\n\nA programmer is therefore, Someone who writes code or programs to tell the computer what to do.\n\nbecoming a programmer is not an easy road to take but yet so easy to learn especially when you have good instructors, Mentors, Books, Tutorial Videos and lots more now everywhere on the internet.\n\nA good example of such great resource for Becoming a programmer is HNG Internship 6.0 which offers the best on hands practice in the world of programming. this program is for beginners like me who wants to learn how to code.\n\nThanks to this program while trying to complete task One, I accomplished a lot;\n\nUsed Google documents, which I used their template to properly develop and structure my CV.\nI created a Blog using Blogger, Never knew it was that easy.\nRead about Italy and majorly the beautiful city of Milan as the first topic of post on my blog.\nRead about Github and Git, although I've not used it yet but am eager to learn how to create projects.\nIn the course of this task i came across PivotalTracker, Cloudinary, and many more, I cant wait to learn about them and use them. I am hoping that i will learn more on web design to further improve my front-end skills before the completion of this program.\n\nFinally, I wish to commend because I am impressed and have not yet seen a flaw to be improved.\n\nThumbs Up Start.ng",
+      "postBody": "Programming its the process of creating a set of instructions that tell a computer how to perform a task. Programming can be done using a variety of computer \"languages,\" such as SQL, Java, Python, and also web languages such as HTML, CSS, JavaScript etc.\n\nA programmer is therefore, Someone who writes code or programs to tell the computer what to do.\n\nbecoming a programmer is not an easy road to take but yet so easy to learn especially when you have good instructors, Mentors, Books, Tutorial Videos and lots more now everywhere on the internet.\n\nA good example of such great resource for Becoming a programmer is HNG Internship 6.0 which offers the best on hands practice in the world of programming. this program is for beginners like me who wants to learn how to code.\n\nThanks to this program while trying to complete task One, I accomplished a lot;\n\nUsed Google documents, which I used their template to properly develop and structure my CV.\nI created a Blog using Blogger, Never knew it was that easy.\nRead about Italy and majorly the beautiful city of Milan as the first topic of post on my blog.\nRead about Github and Git, although I've not used it yet but am eager to learn how to create projects.\nIn the course of this task i came across PivotalTracker, Cloudinary, and many more, I cant wait to learn about them and use them. I am hoping that i will learn more on web design to further improve my front-end skills before the completion of this program.\n\nFinally, I wish to commend because I am impressed and have not yet seen a flaw to be improved.\n\nThumbs Up",
       "userid": "4",
-      "dateTime": "2019-10-21 19:24:41",
+      "dateTime": "23 Oct, 2019 3:37 AM",
       "name": "Micheal Chidi",
       "id": 5
+    },
+    {
+      "postTitle": "Testing",
+      "postBody": "the autocomplete feature just added.",
+      "userid": "4",
+      "dateTime": "23 Oct, 2019 4:48 AM",
+      "name": "Micheal Chidi",
+      "id": 6
     }
   ],
   "comments": [
@@ -105,12 +113,52 @@
       "postId": "3",
       "userid": "10",
       "id": 9
+    },
+    {
+      "comment": "its working now",
+      "dateTime": "23 Oct, 2019 3:58 AM",
+      "commenter": "micheal",
+      "postId": "2",
+      "userid": "4",
+      "id": 10
+    },
+    {
+      "comment": "Great post",
+      "dateTime": "23 Oct, 2019 11:41 AM",
+      "commenter": "@james",
+      "postId": "1",
+      "userid": "11",
+      "id": 11
+    },
+    {
+      "comment": "cool",
+      "dateTime": "24 Oct, 2019 10:26 AM",
+      "commenter": "james",
+      "postId": "1",
+      "userid": "11",
+      "id": 12
+    },
+    {
+      "comment": "testing",
+      "dateTime": "24 Oct, 2019 10:27 AM",
+      "commenter": "anonymous",
+      "postId": "6",
+      "userid": "0",
+      "id": 13
+    },
+    {
+      "comment": "hello am tony",
+      "dateTime": "24 Oct, 2019 11:07 AM",
+      "commenter": "@tony",
+      "postId": "1",
+      "userid": "5",
+      "id": 14
     }
   ],
   "users": [
     {
       "id": 1,
-      "userName": "",
+      "userName": "chidi",
       "email": "chidimicheal17@gmail.com",
       "password": "elizabeth",
       "firstName": "Chidi",
@@ -118,12 +166,6 @@
       "bio": "",
       "photoLink": "",
       "userid": "1"
-    },
-    {
-      "userName": "",
-      "email": "",
-      "password": "",
-      "id": 2
     },
     {
       "userName": "heataha",
@@ -137,50 +179,22 @@
       "userid": "3"
     },
     {
-      "userName": "heataha",
+      "userName": "admin",
       "email": "chidimicheal17@gmail.com",
-      "password": "1",
+      "password": "admin",
       "id": 4,
       "firstName": "micheal",
       "lastName": "chidi",
-      "bio": "micheal here",
+      "bio": "The Administrator",
       "photoLink": "",
-      "userid": "4"
+      "userid": "4",
+      "type": "admin"
     },
     {
       "userName": "tony",
       "email": "tonybaddestguy@gmail.com",
       "password": "tonyg",
       "id": 5
-    },
-    {
-      "userName": "chidimicheal17",
-      "email": "chidimicheal17@gmail.com",
-      "password": "gggggg",
-      "id": 6
-    },
-    {
-      "userName": "Chimike",
-      "email": "chidimicheal17@gmail.com",
-      "password": "ertyu",
-      "id": 7
-    },
-    {
-      "userName": "Chimike",
-      "email": "chidimicheal17@gmail.com",
-      "password": "ertyu",
-      "id": 8
-    },
-    {
-      "userName": "ebuka",
-      "email": "chidimicheal16@gmail.com",
-      "password": "ebuka",
-      "id": 9,
-      "firstName": "ebuka",
-      "lastName": "judah",
-      "bio": "i am the soil",
-      "photoLink": "",
-      "userid": "9"
     },
     {
       "userName": "kelvin",
@@ -192,6 +206,17 @@
       "bio": "I am a marlian",
       "photoLink": "",
       "userid": "10"
+    },
+    {
+      "userName": "james",
+      "email": "jamesgodonu@gmail.com",
+      "password": "james",
+      "id": 11,
+      "firstName": "james",
+      "lastName": "Godonu",
+      "bio": "",
+      "photoLink": "",
+      "userid": "11"
     }
   ]
 }

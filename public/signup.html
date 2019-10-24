@@ -36,6 +36,7 @@
                     <form id="mySignupFrom" onsubmit="return Validate()" name="signupForm" method="POST" action="">
                         <div class="form-group">
                             <div id="signUpMessage"><div class="alert alert-success" role="alert">Registration Successful, Log In </div></div>
+                            <div id="signUpErrorMessage"><div class="alert alert-danger" role="alert">Account already exist, Log In </div></div>
                                 <div class="input-group">
                                     <input type="text" id="inputUsername" class="form-control" name="username" placeholder="Username" >
                                 </div>
@@ -91,7 +92,7 @@
     <script src="bootstrap-4.3.1-dist/js/jquery.min.js"></script>
     <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>    
     <script src="js/index.js"></script>
-    <script>$('#signUpMessage').hide();</script>
-   
+<!--     <script>$('#signUpMessage').hide();</script>
+ -->   
  </body>
 </html>

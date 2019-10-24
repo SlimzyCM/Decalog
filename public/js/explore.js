@@ -59,6 +59,10 @@
        
         console.log(clicked);
         sessionStorage.setItem('pId', clicked);
-        window.location = "http://localhost:3000/explore2.html"; 
+        if (localStorage.getItem('userid') == null){
+            window.location = "http://localhost:3000/explore2.html"; 
+            return;
+            } 
+            window.location = "http://localhost:3000/explore2logged.html"; 
 
     }

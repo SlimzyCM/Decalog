@@ -87,10 +87,12 @@
   }
   #allPostFullDiv{
     background-color: aliceblue;
+    padding-bottom: 20px;
   }
   #allPostFullDiv h2{
-    background-color: #444;
+    background-color: #444447;
     padding: 10px;
+    color: white;
   }
   .active{
     font-weight: bold;

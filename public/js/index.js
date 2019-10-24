@@ -1,3 +1,18 @@
+    
+    var userArray = [];
+    var emailArray = [];
+      $.ajax({
+        url: 'http://localhost:3000/users',
+        method: 'get',
+      }).done((res) =>{
+        for (let i = 0; i < res.length; i++) {
+          userArray.push(res[i].userName);
+          emailArray.push(res[i].email);
+          
+        }
+        
+      })
+
 
 // SELECTING ALL TEXT ELEMENTS
 var username = document.forms['signupForm']['username'];
@@ -22,6 +37,14 @@ function Validate() {
     username.style.border = "2px solid red";
     document.getElementById('inputUsername').style.color = "red";
     username_error.textContent = "Username is required";
+    username.focus();
+    return false;
+  }
+  // 
+  if (userArray.indexOf(username.value) !== -1) {
+    username.style.border = "2px solid red";
+    document.getElementById('inputUsername').style.color = "red";
+    username_error.textContent = "Username already exist";
     username.focus();
     return false;
   }
@@ -86,7 +109,7 @@ function Validate() {
 // event handler functions
 
 function usernameVerify() {
-  if ((username.value !== "") && (username.value.indexOf(' ') == -1)) {
+  if ((username.value !== "") && (username.value.indexOf(' ') == -1) && (userArray.indexOf(username.value) == -1)) {
    username.style.border = "2px solid #46B32A";
    document.getElementById('inputUsername').style.color = "#46B32A";
    username_error.innerHTML = "";
@@ -121,7 +144,7 @@ $(document).ready(function(){
 
 
 
-  $('#signUpMessage').hide();
+  //$('#signUpMessage').hide();
   
   $('#mySignupFrom').submit((event)=>{
       event.preventDefault()
@@ -130,7 +153,14 @@ $(document).ready(function(){
       let password = $('#inputPassword').val();
       let confirmPassword = $('#confirmPassword').val();
 
-      if((confirmPassword === password) && (password !== '') && (confirmPassword !== '') && (confirmPassword.length > 4) && (userName.length >= 4)){
+      if ((emailArray.indexOf(email) !== -1)) {
+        $('#signUpErrorMessage').fadeIn();
+              $('#signUpErrorMessage').fadeOut(5000);
+              $('input:not([type="checkbox"])').val('');
+              return;
+      }
+
+      if((confirmPassword === password) && (password !== '') && (confirmPassword !== '') && (confirmPassword.length > 4) && (userName.length >= 4) && (userArray.indexOf(username.value) == -1)){
         $.ajax({
           url: 'http://localhost:3000/users',
           method: 'post',
@@ -145,8 +175,9 @@ $(document).ready(function(){
           //
               $('#signUpMessage').fadeIn();
               $('#signUpMessage').fadeOut(4000);
-
+              $('input:not([type="checkbox"])').val('');
               return;
+           
           
   
       })

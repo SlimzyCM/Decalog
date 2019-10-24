@@ -1,4 +1,19 @@
 $(document).ready(function(){
+    
+    document.querySelector('#userName').value = localStorage.getItem('un'); 
+        
+    if(localStorage.getItem('fn') !== "undefined"){
+        document.querySelector('#firstName').value = localStorage.getItem('fn'); 
+    }
+    if(localStorage.getItem('ln') !== "undefined"){
+    document.querySelector('#lastName').value = localStorage.getItem('ln'); 
+    }
+    if(localStorage.getItem('bio') !== "undefined"){
+    document.querySelector('#bioPost').value = localStorage.getItem('bio'); 
+    }
+    if(localStorage.getItem('photoLink') !== "undefined"){
+    document.querySelector('#photoLink').value = localStorage.getItem('photoLink'); 
+    }
 
 
     $('#updateForm').submit((event)=>{

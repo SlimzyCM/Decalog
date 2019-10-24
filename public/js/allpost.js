@@ -23,7 +23,7 @@
                 
                 
                 <div class="Allpost"><br>
-                <a href="#" id="${item.id}" onClick="viewPost(this.id)"><h4>${item.postTitle}</h4></a>
+                <a href="viewpost.html" id="${item.id}" onClick="viewPost(this.id)"><h4>${item.postTitle}</h4></a>
                 <p>${item.postBody.slice(0,195)}...</p>
                 <span class="timeDate">${item.name}</span>,
                 <span class="timeDate">${item.dateTime}</span> 
@@ -48,6 +48,6 @@
        
         console.log(clicked);
         sessionStorage.setItem('pId', clicked);
-        window.location = "http://localhost:3000/viewpost.html"; 
+        window.location = "viewpost.html"; 
 
     }

@@ -9,13 +9,11 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-
-    <script> 
-    
-        if (localStorage.getItem('userid') !== null){
-        window.location = "http://localhost:3000/explore2Logged.html"; 
-        }
-        </script>
+      <script>
+          if (localStorage.getItem('userid') == null){
+          window.location = "http://localhost:3000/explore2.html"; 
+          }
+      </script>
  </head>
  <body>
    
@@ -29,10 +27,10 @@
                 
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Guest
+                    <b><script>document.write(localStorage.getItem('un'))</script></b>
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="login.html">LogIn</a>
+                    <a class="dropdown-item" id="logOutE2" href="#">Log Out</a>
                     
                   </div>
                 </li>
@@ -79,6 +77,7 @@
     <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>    
     <script src="js/explore.js"></script>
     <script src="js/comment.js"></script>
+    <script src="js/logout.js"></script>
    
  </body>
 </html>

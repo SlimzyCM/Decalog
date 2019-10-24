@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>DecaLog - Newest Blogging Platform</title>
+    <title>DecaLog - Admin Control Panel</title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap-4.3.1-dist/css/bootstrap.min.css">
         
-    <link rel="stylesheet" href="css/style2.css">           
-    <link rel="stylesheet" href="css/style.css">           
+    <link rel="stylesheet" href="../css/style2.css">           
+    <link rel="stylesheet" href="../css/style.css">           
   
 
     <script> 
     
-      if (localStorage.getItem('userid') == null){
-        window.location ="login.html";
+      if (localStorage.getItem('type') == null){
+        window.location ="http://localhost:3000/admin";
   
         } 
   </script>
@@ -26,7 +26,7 @@
     <a class="navbar-brand  ml-5 mr-0" href="profile.html">DecaLog</a>
     <ul class="navbar-nav px-3">
       <li class="nav-item text-nowrap">
-        <a id="logOut" class="nav-link" href="index.html">Sign out</a>
+        <a id="logOut" class="nav-link" href="http://localhost:3000/admin">Sign out</a>
       </li>
     </ul>
   </nav>
@@ -45,6 +45,7 @@
     </div>
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
     <a href="profile.html" class="btn btn-light special active">TIMELINE</a>
+    <a href="post.html" class="btn btn-outline-dark">WRITE POSTS</a>
     <a href="setting.html" class="btn btn-outline-dark">SETTINGS</a>
     <div class= empty></div>
   </div>
@@ -58,6 +59,9 @@
                 <a class="nav-link active" href="profile.html">Timeline</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link" href="post.html">Post</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="setting.html">More</a>
               </li>
           </ul>
@@ -68,7 +72,7 @@
             <br><h2>All Available Post</h2>
           
         </div>
-        <br><br>
+
           
        
     
@@ -77,11 +81,11 @@
 
 
 
-  <script src="bootstrap-4.3.1-dist/js/jquery-3.4.1.min.js"></script>
-  <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>    
-  <script src="js/profile.js"></script>    
-  <script src="js/allpost.js"></script>    
-  <script src="js/logout.js"></script>    
+  <script src="../bootstrap-4.3.1-dist/js/jquery-3.4.1.min.js"></script>
+  <script src="../bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>    
+  <script src="../js/profile.js"></script>    
+  <script src="../js/allpost.js"></script>    
+  <script src="../js/logout.js"></script>    
 
 
        

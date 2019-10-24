@@ -4,28 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>DecaLog - Newest Blogging Platform</title>
+    <title>DecaLog - Admin Control Panel</title>
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="bootstrap-4.3.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../bootstrap-4.3.1-dist/css/bootstrap.min.css">
         
-    <link rel="stylesheet" href="css/style2.css">           
-    <link rel="stylesheet" href="css/style.css">           
-    <title>DecaLog - Lastest Blogging Platform</title>
+    <link rel="stylesheet" href="../css/style2.css">           
     <script> 
     
-      if (localStorage.getItem('userid') == null){
-        window.location ="login.html";
-  
-        } 
+      if (localStorage.getItem('type') == null){
+          window.location ="http://localhost:3000/admin";
+    
+          }  
   </script>
 </head>
 <body>
   
     <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
-        <a class="navbar-brand  ml-5 mr-0" href="profile.html">DecaLog</a>
+        <a class="navbar-brand  ml-5 mr-0" href="#">DecaLog</a>
         <ul class="navbar-nav px-3">
           <li class="nav-item text-nowrap">
-            <a id="logOut" class="nav-link" href="index.html">Sign out</a>
+            <a id="logOut" class="nav-link" href="http://localhost:3000/admin">Sign out</a>
           </li>
         </ul>
       </nav>    
@@ -43,6 +41,7 @@
     </div>
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
     <a href="profile.html" class="btn btn-outline-dark">TIMELINE</a>
+    <a href="post.html" class="btn btn-outline-dark">WRITE POSTS</a>
     <a href="#" class="btn btn-light active special">SETTINGS</a>
     <div class= empty></div>
 
@@ -59,19 +58,22 @@
               <li class="nav-item">
                 <a class="nav-link" href="profile.html">Timeline</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="post.html">Post</a>
+              </li>
               
           </ul>
       </nav>
-    <div class="update-form "><br>
-        <form id="updateForm" class="settingbg" method="POST">
+    <div class="update-form"><br>
+        <form id="updateForm" method="POST">
                 <div class="form-row">
                   <div class="col-md-5">
                         <label for="firstName">First name</label>
-                    <input type="text" id="firstName" class="form-control" placeholder="First name" required="required">
+                    <input type="text" autocomplete="off" id="firstName" class="form-control" placeholder="First name" required="required">
                   </div>
                   <div class="col-md-5">
                         <label for="lastName">Last name</label>
-                    <input type="text" id="lastName" class="form-control" placeholder="Last name" required="required">
+                    <input type="text" autocomplete="off" id="lastName" class="form-control" placeholder="Last name" required="required">
                   </div>
                 </div>
                 <br><br>
@@ -90,7 +92,7 @@
                         <div class="input-group-prepend">
                           <span class="input-group-text">Enter Bio</span>
                         </div>
-                        <textarea class="form-control textarea"id="bioPost" aria-label="With textarea" ></textarea>
+                        <textarea class="form-control textarea"id="bioPost" aria-label="With textarea" required="required"></textarea>
                 </div>
                 <button class="btn btn-primary my-2 my-md-4" type="submit">Update Profile</button>
             </form>
@@ -102,10 +104,10 @@
 
 
   
-  <script src="bootstrap-4.3.1-dist/js/jquery-3.4.1.min.js"></script>
-  <script src="bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>    
-  <script src="js/profile.js"></script>
-  <script src="js/setting.js"></script>
-  <script src="js/logout.js"></script>
+  <script src="../bootstrap-4.3.1-dist/js/jquery-3.4.1.min.js"></script>
+  <script src="../bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>    
+  <script src="../js/profile.js"></script>
+  <script src="../js/setting.js"></script>
+  <script src="../js/logout.js"></script>
 
 </body>

@@ -13,6 +13,15 @@ body {
 	margin: 0;
 	 
 }
+#admintopContainer{
+	background: url("../images/3.jpg") no-repeat 0 0;
+	min-height: 100%;
+	width: 100%;
+	background-size: cover;
+	box-shadow: inset 0 0 0 1200px rgba(0,0,0,.5);
+	margin: 0;
+	 
+}
 .navbar-brand {
 	font-size: 2.0em;
 	font-weight: bold;
@@ -77,32 +86,32 @@ body {
 	overflow:auto
 	}
 
-	#popupContact {
+#popupContact {
 	position:absolute;
 	width: 500px;
 	left:47%;
 	top:17%;
 	margin-left:-212px;
 	} 
-	#popupContact form {
+#popupContact form {
 	padding:10px 50px;
 	border:2px solid gray;
 	border-radius:10px;
 	background-color:#fff
 	}
-	#popupContact h2 {
+#popupContact h2 {
 	background-color:#FEFFED;
 	padding:20px 35px;
 	margin:-10px -50px;
 	text-align:center;
 	border-radius:10px 10px 0 0
 	}
-	#popupContact hr {
+#popupContact hr {
 	margin:10px -50px;
 	border:0;
 	border-top:1px solid #ccc
 	}
-	#popupContact input[type=text] {
+#popupContact input[type=text] {
 	padding:10px;
 	margin-top:30px;
 	border:1px solid #ccc;
@@ -110,7 +119,7 @@ body {
 	font-size:16px;
 	}
 
-	#popupContact textarea {
+#popupContact textarea {
 	padding:10px;
 	resize:none;
 	margin-top:30px;
@@ -119,31 +128,64 @@ body {
 	margin-bottom:30px
 	}
 
-	.Allpost a:hover{
-		text-decoration: none;
-	}
-	.comment{
-		margin: 20px 0px;
-	}
-	.spantext{
-		float: right;
-		font-weight:500;
-		font-size: 14px;
-		color: #6C757D;
-		
-	}
+.Allpost a:hover{
+	text-decoration: none;
+}
+.Allpost{
+	background-color: #FEFFED;
+	padding: 20px;
+	margin-top: 10px;
+}
+.comment{
+	margin: 20px 0px;
+}
+.spantext{
+	float: right;
+	font-weight:500;
+	font-size: 14px;
+	color: #6C757D;
+	
+}
 
-	.nameEdit{
-		font-weight:800;
-		font-size: 18px;
-	}
+.nameEdit{
+	font-weight:800;
+	font-size: 18px;
+}
 
-	#commentPost{
-		border: 2px solid rgb(239, 241, 243);
-		padding: 14px;
-		border-radius: 7px;
-	}
+#commentPost{
+	border: 2px solid rgb(239, 241, 243);
+	padding: 14px;
+	border-radius: 7px;
+}
 
-	.textcomment{
-		margin-top: 8px;
-	}
+.textcomment{
+	margin-top: 8px;
+}
+#loginError{
+	display: none;
+}
+#signUpMessage{
+	display: none;
+}
+#signUpErrorMessage{
+	display: none;
+}
+.settingbg{
+	background-color: #FEFFEf;
+	padding: 20px 20px 20px 20px;
+}
+footer{
+    background-color: #343a40;
+    text-align:center;
+    margin-top: 70vh;
+    color: white;
+    font-size: 17px;
+    height: 50px;
+    bottom: 0;
+    width: 100%;
+
+}
+.footerText{
+    padding-top: 10px;
+    
+}
